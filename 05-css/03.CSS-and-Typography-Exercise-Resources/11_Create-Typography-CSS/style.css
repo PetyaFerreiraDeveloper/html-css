@@ -1,0 +1,33 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+th, td {
+    width:150px;
+    padding: 4px 8px;
+}
+th {
+    background-color: gray;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: lightgray;
+}
+
+article.quotes {
+    border-left: 1px solid rgb(221,221,221);
+    margin-left: 20px;
+    font-style: italic;
+}
+
+article.quotes blockquote:last-child {
+    text-align: right;
+}

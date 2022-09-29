@@ -1,0 +1,5 @@
+1. [CSS Atribute Selectors](https://allround.io/articles/css-attribute-selectors)
+2. [CSS Margin Collapse](https://www.w3schools.com/css/css_margin_collapse.asp)
+3. [:nth Tester](https://css-tricks.com/examples/nth-child-tester/)
+4. [Color Picker](https://mycolor.space/)
+5. [Tint and Shade Generator](https://maketintsandshades.com/)

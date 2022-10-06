@@ -1,0 +1,35 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+.viewport:first-child {
+    background-color: aqua;
+}
+
+.viewport:nth-child(2) {
+    background-color:rgb(225, 225, 150);
+    border: solid 1px orange;
+}
+
+.viewport {
+    position: relative;
+    height: 50vh;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.viewport .card .icon {
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 4px;
+}
+

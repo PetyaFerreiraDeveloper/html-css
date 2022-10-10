@@ -1,0 +1,40 @@
+.container .item:first-child {
+    background-color: red;
+}
+
+.container .item:nth-child(2) {
+    background-color: green;
+}
+
+.container .item:nth-child(3) {
+    background-color: blue;
+}
+
+.container .item:nth-child(4) {
+    background-color: salmon;
+}
+
+.container .item:nth-child(5) {
+    background-color: sandybrown;
+}
+
+.container .item:nth-child(6) {
+    background-color: lightblue;
+}
+
+.container .item {
+    width: 300px;
+    padding: 30px;
+}
+
+.container {
+    list-style: none;
+    border: 2px dashed black;
+    display: flex;
+    /* flex-wrap: wrap - every element will keep their size and if there is not enough place they will be moved to a new row */
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: space-between;
+    align-content: space-around;
+    /* align-content: center - only works if the container has wrap property on and it has height defined */
+}

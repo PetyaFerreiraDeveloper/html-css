@@ -3,3 +3,6 @@
 3. [:nth Tester](https://css-tricks.com/examples/nth-child-tester/)
 4. [Color Picker](https://mycolor.space/)
 5. [Tint and Shade Generator](https://maketintsandshades.com/)
+6. [Flexbox Froggy](https://flexboxfroggy.com/)
+7. [Flexbox Adventure](https://codingfantasy.com/games/flexboxadventure)
+8. [Safia Design](https://www.figma.com/community/file/892582971189995704)

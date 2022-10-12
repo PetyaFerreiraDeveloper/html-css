@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 35px var(--px-small);
+}
+
+header .header-logo {
+    width: 104px;
+}
+
+header .btn.header-btn {
+    background-color: var(--clr-gray-700);
+    color: var(--clr-white);
+    border: none;
+    
+}

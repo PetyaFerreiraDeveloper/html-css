@@ -5,10 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Safia Figma Template</title>
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./styles/header.css" />
-    <link rel="stylesheet" href="./styles/hero.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+   
   </head>
   <body>
     <header>
@@ -20,7 +18,7 @@
       <button class="btn header-btn">Login</button>
     </header>
     <main>
-      <section class="hero">
+      <section id="hero" class="section">
         <div class="hero-info">
           <h1 class="hero-info-title">Landing Template for Startups</h1>
           <div class="hero-info-desc">
@@ -31,13 +29,207 @@
             <button class="btn btn-primary">Pricing and Plans</button>
           </div>
         </div>
-        <img class="hero-dashboard" src="./assets/dashboard-safia.png" alt="hero-dashboard" />
+        <img
+          class="hero-dashboard"
+          src="./assets/dashboard-safia.png"
+          alt="hero-dashboard"
+        />
         <div class="partners">
           <img src="./assets/google-logo.png" alt="google-logo" />
           <img src="./assets/slack-logo.png" alt="slack-logo" />
           <img src="./assets/amazon-logo.png" alt="amazon-logo" />
           <img src="./assets/zoom-logo.png" alt="zoom-logo" />
           <img src="./assets/netflix-logo.png" alt="netflix-logo" />
+        </div>
+      </section>
+
+      <section id="how-it-works" class="section">
+        <h5 class="section__sub-title">saflow</h5>
+        <h2 class="section__title">How does it work</h2>
+        <div class="hiw__row">
+          <img class="row__img" src="./assets/how-01.png" alt="" />
+          <div class="row__text">
+            <h3 class="text__title">How does it work?</h3>
+            <p class="text__desc">
+              Our landing page template works on all devices, so you only have
+              to set it up once and get beautiful results.
+            </p>
+          </div>
+        </div>
+        <div class="hiw__row">
+          <div class="row__text">
+            <h3 class="text__title">How does it work?</h3>
+            <p class="text__desc">
+              Our landing page template works on all devices, so you only have
+              to set it up once and get beautiful results.
+            </p>
+          </div>
+          <img class="row__img" src="./assets/how-02.png" alt="" />
+        </div>
+        <div class="hiw__row">
+          <img class="row__img" src="./assets/how-03.png" alt="" />
+          <div class="row__text">
+            <h3 class="text__title">How does it work?</h3>
+            <p class="text__desc">
+              Our landing page template works on all devices, so you only have
+              to set it up once and get beautiful results.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="pricing" class="section">
+        <h5 class="section__sub-title">saflow</h5>
+        <h2 class="section__title">Pricing</h2>
+
+        <div class="pricing__row">
+          <article class="plan">
+            <h5 class="plan__name">free</h5>
+            <h3 class="plan__price"><span class="sign">&#36;</span>0</h3>
+            <div class="divider"></div>
+
+            <ul class="features" role="list">
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">7,000,000+ Events</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">4 Custom Domains</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">Dedicated Support Agent</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">12 Months Data History</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">1 Dedicated SSL</p>
+              </li>
+            </ul>
+            <button class="btn btn--secondary plan__cta">Get started</button>
+          </article>
+          <article class="plan plan--promoted">
+            <h5 class="plan__name">basic</h5>
+            <h3 class="plan__price"><span class="sign">&#36;</span>23</h3>
+            <div class="divider"></div>
+
+            <ul class="features" role="list">
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">7,000,000+ Events</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">4 Custom Domains</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">Dedicated Support Agent</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">12 Months Data History</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">1 Dedicated SSL</p>
+              </li>
+            </ul>
+            <button class="btn btn--secondary plan__cta">Get started</button>
+          </article>
+          <article class="plan">
+            <h5 class="plan__name">premium</h5>
+            <h3 class="plan__price"><span class="sign">&#36;</span>59</h3>
+            <div class="divider"></div>
+
+            <ul class="features" role="list">
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">7,000,000+ Events</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">4 Custom Domains</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">Dedicated Support Agent</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">12 Months Data History</p>
+              </li>
+              <li class="feature">
+                <img
+                  class="feature__icon"
+                  src="./assets/checkbox.png"
+                  alt="checkbox"
+                />
+                <p class="feature__text">1 Dedicated SSL</p>
+              </li>
+            </ul>
+            <button class="btn btn--secondary plan__cta">Get started</button>
+          </article>
         </div>
       </section>
     </main>

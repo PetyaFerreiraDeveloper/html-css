@@ -14,7 +14,8 @@
 }
 
 #pricing .plan.plan--promoted {
-    margin-bottom: 32px;
+    margin-bottom: 64px;
+    background-color: var(--clr-gray-700);
 }
 
 #pricing .plan .plan__name {

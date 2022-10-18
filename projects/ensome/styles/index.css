@@ -1,0 +1,29 @@
+@import url('reset.css');
+@import url('variables.css');
+@import url('hero.css');
+@import url('clients.css');
+@import url('business.css');
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: bisque;
+}
+
+.btn {
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 50px;
+    box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.18);
+    text-align: center;
+}
+
+.btn--primary {
+    color: white;
+    background-color: blue;
+}
+
+.btn--secondary {
+    color: black;
+    background-color: white;
+}

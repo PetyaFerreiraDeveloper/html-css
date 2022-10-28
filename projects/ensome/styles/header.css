@@ -8,9 +8,71 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-   background-color: inherit;
+    background-color: inherit;
+    max-width: 1940px;
+    z-index: 100;
 }
 
 #header .burger {
     color: var(--clr-primary);
+}
+
+#header .btn.btn--primary {
+    display: none;
+}
+
+#header nav {
+    display: none;
+}
+
+
+
+@media screen and (min-width: 1024px) {
+    #header .md-padding {
+        padding: 0 100px;
+    }
+    #header .logo {
+        width: 140px;
+    }
+    #header .burger {
+        display: none;
+    }
+    
+    #header .btn.btn--primary {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        width: unset;
+        padding: 10px 15px;
+    }
+    
+    #header nav {
+        display: block;
+    }
+
+    #header nav .list{
+        display: flex;
+        gap: 10px;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    #header {
+        left: 50%;
+        transform: translate(-50%);
+        padding: 40px 204px;
+    }
+    #header nav .list{
+        gap: 40px;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    #header {
+        left: 50%;
+        transform: translate(-50%);
+        padding: 40px 404px;
+    }
 }

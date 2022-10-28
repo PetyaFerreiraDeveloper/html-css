@@ -75,3 +75,17 @@
     font-weight: 500;
     color: var(--clr-grey);
 }
+
+@media screen and (min-width: 1024px) {
+    #reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    #reviews .arrows {
+        padding-right: 100px;
+    }
+    
+}

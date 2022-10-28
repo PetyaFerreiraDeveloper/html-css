@@ -31,6 +31,7 @@
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(calc(-92px * 6));
     }
@@ -41,7 +42,7 @@
 }
 
 #hero .slider .slider-track {
-    animation: scroll 40s linear infinite;
+    animation: scroll 10s linear infinite;
     display: flex;
     width: calc(12 * 92px);
 }
@@ -49,4 +50,136 @@
 #hero .slider .slide {
     height: 65px;
     width: 92px;
+}
+
+@media screen and (min-width: 600px) {
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(calc(-92px * 1.5 * 6));
+        }
+    }
+
+    #hero .slider {
+        height: calc(65px * 1.5);
+    }
+
+    #hero .slider .slider-track {
+        animation: scroll 40s linear infinite;
+        display: flex;
+        width: calc(12 * 92px * 1.5);
+    }
+
+    #hero .slider .slide {
+        height: calc(65px * 1.5);
+        width: calc(92px * 1.5);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    #hero .hero-main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    #hero .img-container,
+    #hero .hero__content {
+        width: 50%;
+    }
+
+    #hero .hero-img {
+        width: 100%;
+    }
+
+    #hero .content__actions {
+        flex-direction: row;
+    }
+
+    #hero .content__actions button {
+        padding: 10px 15px;
+        width: unset;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #hero {
+        margin-top: 85px;
+    }
+
+    #hero .sm-padding {
+        padding: 0;
+    }
+
+    #hero .hero__content {
+        padding: 0 0 0 100px;
+    }
+
+    #hero .parent {
+        padding: 0 200px;
+    }
+}
+
+@media screen and (min-width: 1124px) {
+    #hero .img-container {
+        width: 60%;
+        padding-right: 100px;
+    }
+
+    #hero .hero__content {
+        width: 40%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #hero {
+        margin-top: 125px;
+    }
+
+    #hero .img-container {
+        max-width: 845px;
+        padding-right: 100px;
+    }
+
+    #hero .hero__content {
+        padding-left: 204px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #hero .hero__content .content__title {
+        font-size: 46px;
+        line-height: 60px;
+    }
+
+    #hero .hero__content .content__desc {
+        font-size: 20px;
+        line-height: 33px;
+    }
+
+    #hero .parent {
+        padding: 0 404px;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    #hero .hero-main {
+        gap: 0;
+    }
+
+    #hero .hero__content {
+        width: 50%;
+        padding-left: 404px;
+        margin: 0;
+    }
+
+    #hero .content__actions button {
+        padding: 15px 40px;
+        width: unset;
+    }
+
 }

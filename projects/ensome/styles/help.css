@@ -68,3 +68,18 @@
     margin: 0 auto;
 }
 
+@media screen and (min-width: 1024px) {
+    #help .carrousel{
+        margin: 40px auto;
+    }
+    #help .carrousel-track{
+        justify-content: space-between;
+    }
+    #help .carrousel-track .card{
+        width: 350px;
+    }
+    #help .btn.btn--primary {
+        width: unset;
+    }
+}
+

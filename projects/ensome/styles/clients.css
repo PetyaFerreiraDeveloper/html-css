@@ -65,3 +65,40 @@
 #clients .slider .slide {
     width: 272px;
 }
+
+@media screen and (min-width: 1024px) {
+    #clients {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #clients {
+        padding-left: 204px;
+        padding-right: 204px;
+    }
+    #clients .clients-info {
+        padding-left: 205px;
+        padding-right: 205px;
+    }
+    #clients .clients-title{
+        font-size: 46px;
+        line-height: 60px;
+    }
+    #clients .clients-desc{
+        font-size: 20px;
+        line-height: 33px;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    #clients {
+        padding: 100px 404px;
+    }
+    #clients .clients-info {
+        padding-left: 205px;
+        padding-right: 205px;
+    }
+   
+}

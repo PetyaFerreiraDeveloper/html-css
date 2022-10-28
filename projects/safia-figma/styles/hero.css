@@ -1,11 +1,13 @@
-#hero {
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
     row-gap: 68px;
+    margin-top: 68px;
+    margin-bottom: 68px;
 }
 
-#hero .hero-info {
+.hero .hero-info {
     display: flex;
     justify-content: space-between;
     padding: 0 var(--px-larger);
@@ -24,7 +26,7 @@
     color: var(--clr-gray-500);
 }
 
-#hero .hero-info .hero-info-desc .btn-primary {
+.btn.btn-cta {
     background-color: var(--clr-blue-600);
 }
 

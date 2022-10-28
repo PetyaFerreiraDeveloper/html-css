@@ -1,0 +1,38 @@
+#contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#contact .contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contact .contact-info .data {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+#contact p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+#contact span {
+    color: var(--clr-black);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: var(--clr-black);
+
+}

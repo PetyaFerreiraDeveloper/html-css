@@ -1,0 +1,70 @@
+#help {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: var(--clr-bg);
+    display: flex;
+    flex-direction: column;
+}
+
+#help .help-title {
+    margin-bottom: 30px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 800;
+}
+
+#help .carrousel {
+    margin-bottom: 40px;
+    overflow: hidden;
+    margin-left: 44px;
+}
+
+#help .carrousel .carrousel-track {
+    display: flex;
+    width: calc(3 * 272px + 2 * 28px + 44px);
+    gap: 28px;
+}
+
+#help .card {
+    background-color: white;
+    padding: 30px 25px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 272px;
+    border-radius: 6px;
+    box-shadow: 0px 4px 12px rgba(12, 68, 204, 0.1);
+}
+
+#help .card .card-date {
+    margin-bottom: 25px;
+}
+
+#help .card .card-title {
+    margin-bottom: 16px;
+}
+
+#help .card .card-desc {
+    margin-bottom: 16px;
+}
+
+#help .card .links .link {
+    text-decoration: none;
+    color: var(--clr-primary);
+    background-color: #F1F6FA;
+    padding: 3px 11px;
+    border-radius: 6px;
+    border: 1px solid #F1F6FA;
+}
+
+#help .card .links .link:first-child {
+    margin-right: 10px;
+}
+
+#help .btn {
+    margin-left: 44px;
+    margin-right: 44px;
+}
+

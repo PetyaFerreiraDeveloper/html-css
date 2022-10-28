@@ -1,0 +1,65 @@
+#footer .footer-logo {
+    margin-top: 40px;
+    margin-bottom: 16px;
+}
+
+#footer .details {
+    padding-top: 15px;
+    padding-bottom: 15px;
+} 
+
+#footer .question {
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--clr-black)
+}
+
+#footer span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--clr-black);
+}
+
+#footer .divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--clr-black);
+    margin-bottom: 15px;
+}
+
+#footer .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#footer .social .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#footer .social .social-icons img {
+    width: 26px;
+    height: 26px;
+}
+
+#footer .terms {
+    display: flex;
+    gap: 10px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: var(--clr-black);
+    padding: 5px 5px 5px 0;
+}
+
+#footer .copy {
+    padding-bottom: 40px;
+}

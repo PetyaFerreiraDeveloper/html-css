@@ -1,0 +1,16 @@
+#header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: inherit;
+}
+
+#header .burger {
+    color: var(--clr-primary);
+}

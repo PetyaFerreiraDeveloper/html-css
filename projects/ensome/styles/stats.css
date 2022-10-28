@@ -1,0 +1,30 @@
+#stats {
+    background-color: var(--clr-primary);
+    padding: 0 44px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#stats .stats-card {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 35px 0;
+    border-bottom: solid var(--clr-bg) 1px;
+    align-items: center;
+}
+
+#stats .stats-card .num {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+#stats .stats-card .text {
+    font-size: 20px;
+    line-height: 33px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+

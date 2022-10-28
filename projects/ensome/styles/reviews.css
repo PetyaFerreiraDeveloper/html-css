@@ -1,0 +1,77 @@
+#reviews {
+    padding: 50px 0;
+}
+
+#reviews .reviews-title {
+    padding: 0 16px;
+    margin-bottom: 24px;
+}
+
+#reviews .arrows {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 16px;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+#reviews .arrows button {
+    padding: 0;
+    border: none;
+    border-radius: 14px;
+    background-color: #F0F9FF;
+}
+
+#reviews .arrows .arrow {
+    padding: 8px 12px;
+}
+
+#reviews .carrousel {
+    padding-top: 25px;
+    overflow: hidden;
+}
+
+#reviews .carrousel-track {
+    display: flex;
+    width: calc(28px * 2 + 272px * 3 + 44px);
+    gap: 28px;
+}
+
+#reviews .person-card {
+    width: 272px;
+    position: relative;
+    border: 1px var(--clr-bg) solid;
+    box-shadow: 0px 4px 12px rgba(12, 68, 204, 0.1);
+    border-radius: 6px;
+}
+
+#reviews .person-card:first-child {
+    margin-left: 44px;
+}
+
+#reviews .person-card .face-img {
+    position: absolute;
+    left: 25px;
+    top: -25px;
+}
+
+#reviews .person-card .card-info {
+    padding: 60px 25px 30px;
+}
+
+#reviews .person-card .card-desc {
+    margin-bottom: 20px;
+}
+
+#reviews .person-card .person-name {
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#reviews .person-card .person-info {
+    margin: 0;
+    font-weight: 500;
+    color: var(--clr-grey);
+}

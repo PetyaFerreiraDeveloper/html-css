@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@300;400&display=swap');
+
+body {
+    background-color: beige;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Monterrat', sans-serif;
+    font-weight: 500;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#main-section {
+    margin: 0 auto;
+    max-width: 1300px;
+    display: flex;
+    padding: 2rem 4rem;
+    gap: 3rem;
+    background-color: white;
+}
+
+
+#main-section .info,
+#main-section .main-img {
+    width: 50%;
+}
+
+#main-section .title {
+    margin-bottom: 2rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#main-section .desc {
+    color: #8b8b8b
+}
+
+#main-section .desc:last-of-type {
+    margin-bottom: 3rem;
+}
+
+#main-section .features .feature {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+#main-section .features .feature:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+
+#main-section .features .feature .feature-img {
+    width: 70px;
+}
+
+#main-section .features .feature .desc-title {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+#main-section .features .feature .desc-text {
+    margin: 0;
+    padding: 0;
+    color: #8b8b8b
+}

@@ -1,0 +1,94 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap');
+@import url('reset.css');
+@import url('variables.css');
+@import url('header.css');
+@import url('hero.css');
+@import url('clients.css');
+@import url('business.css');
+@import url('help.css');
+@import url('reviews.css');
+@import url('stats.css');
+@import url('contact.css');
+@import url('subscribe.css');
+@import url('footer.css');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: bisque;
+    font-size: 14px;
+    color: var(--clr-grey);
+    line-height: 24px;
+    font-weight: 400;
+}
+
+h1, 
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Manrope', sans-serif;
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 40px;
+}
+
+.container {
+    max-width: 1940px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.sm-padding {
+    padding: 0 1rem;
+}
+
+.btn {
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 50px;
+    box-shadow: 0px 12px 30px rgba(24, 92, 255, 0.18);
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn--primary {
+    color: white;
+    background-color: blue;
+}
+
+.btn--secondary {
+    color: var(--clr-primary);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    border: 1px solid var(--clr-primary);
+}
+
+/* SLIDERS */
+
+.slider {
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: auto;
+}
+
+.slider .slider-track {
+    animation: scroll 40s linear infinite;
+    display: flex;
+}
+
+
+

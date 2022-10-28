@@ -1,0 +1,32 @@
+#subscribe {
+    background-color: var(--clr-primary);
+    padding-top: 50px;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+#subscribe input,
+#subscribe button {
+    width: 100%;
+}
+
+#subscribe .subs-title {
+    color: white;
+    margin-bottom: 30px;
+}
+
+#subscribe input {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+}
+
+#subscribe input::placeholder {
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+}

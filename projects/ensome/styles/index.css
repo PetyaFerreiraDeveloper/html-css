@@ -59,6 +59,7 @@ h2 {
     font-family: 'Manrope', sans-serif;
     font-size: 16px;
     cursor: pointer;
+    width: 330px;
 }
 
 .btn--primary {

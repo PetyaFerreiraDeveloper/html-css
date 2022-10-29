@@ -1,1 +1,111 @@
-/* TODO: Add responsive styles here... */
+@media screen and (max-width: 600px) {
+    .container-fluid.hero img {
+        display: none;
+    }
+
+    .container,
+    .container-fluid {
+        width: unset;
+    }
+
+    #home {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    #home img {
+        width: 150px;
+    }
+
+    #home .container {
+        margin-bottom: 3rem;
+    }
+
+    #home .container h1 {
+        margin-top: unset;
+        margin-bottom: 2rem;
+    }
+
+    #home .hero-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+
+    #home .hero-btns a:first-child {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    #about-us .container-fluid .side2-img img {
+        right: 0;
+    } 
+
+    #about-us .sdie-img,
+    #about-us .sdie2-img {
+        display: none;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #about-us .row .hero-btns {
+        margin-bottom: unset;
+    } 
+
+    #about-us .col-12.col-sm-12.col-lg-4.service-txt {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+    }
+
+    #about-us .col-12.col-sm-12.col-lg-4.service-txt h2 {
+        text-align: center;
+        padding: 2rem;
+    }
+
+    #about-us .col-12.col-sm-6.col-lg-4 {
+        max-width: 100%;
+    }
+
+    .about .col-12.col-sm-12.col-lg-6 h5 {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+
+    .about .col-12.col-sm-12.col-lg-6 {
+        text-align: center;
+    }
+
+    #contact-us .col-12{
+        text-align: center;
+    }
+
+    #contact-us .hero-btns.contact-btn {
+        display: none;
+    }
+
+    footer h3 {
+        text-align: center;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    footer ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    
+
+
+}

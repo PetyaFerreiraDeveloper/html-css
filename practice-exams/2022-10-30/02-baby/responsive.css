@@ -1,0 +1,89 @@
+@media screen and (max-width: 600px) {
+
+    .site-navigation,
+    .site-information-image {
+        display: none;
+    }
+
+    .site-main {
+        margin: 0;
+    }
+
+    .entry-header {
+        border-radius: unset;
+        background-position: 60%;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    .entry-header .button {
+        width: 120px;
+    }
+
+    .site-logos-container {
+        min-width: unset;
+    }
+
+    .site-information-text {
+        flex: unset;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-information-text .entry-title {
+        width: 50%;
+        text-align: center;
+    }
+
+    .site-information-text .entry-description {
+        text-align: center;
+        width: 70%;
+    }
+
+    .site-information-text .button {
+        width: 20%;
+    }
+
+    .site-form {
+        margin-top: 0;
+    }
+
+    .site-form .entry-title {
+        font-size: 0.5rem;
+    }
+
+    .site-form-container form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .site-form-container form p {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .site-form-container form p input {
+        width: 100%;
+    }
+
+    .site-form-container form button {
+        margin-left: 0;
+    }
+
+    .site-blog-container {
+        margin-top: 0;
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+
+    .site-posts {
+        flex-direction: column;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+}
